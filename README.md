@@ -83,6 +83,7 @@
 
 ## 项目结构 (Project Structure)
 
+```
 EasyIsaac/
 ├── assets/                     # 资源文件
 │   ├── fonts/                  # 字体文件
@@ -99,9 +100,8 @@ EasyIsaac/
 │   ├── room.cpp                # 房间/地图管理 (地图生成, BFS寻路算法)
 │   ├── tool.cpp                # 工具函数 (按键检测, 定时器, 数学函数等)
 │   └── 标头.h                  # 头文件 (结构体定义, 全局变量声明, 函数原型)
-├── EasyIsaac.sln               # Visual Studio 解决方案文件 (使用 VS2022 打开)
-└── [其他 VS 自动生成的项目文件] # 如 .vcxproj, .vcxproj.filters 等
-
+└── EasyIsaac.sln               # Visual Studio 解决方案文件 (使用 VS2022 打开)
+```
 
 * **assets/images**: 图片资源主要来源于游戏《以撒的结合》，部分经过了修改（如 Photoshop 处理）。透明效果是通过同时加载背景图 (`_back.jpg`) 和掩码图 (`_front.jpg`) 来实现的。
 * **assets/sounds**: 音效和音乐文件同样来源于《以撒的结合》。
