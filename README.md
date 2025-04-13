@@ -35,6 +35,9 @@
 游戏画面(实际画面为60帧)：
 ![EasyIsaac Gameplay](screenshots/gameplay1.gif)
 
+排行榜：
+![EasyIsaac Rank](screenshots/rank.gif)
+
 ## 操作说明 (Controls)
 
 * **移动 (Movement):** `W` `A` `S` `D`
