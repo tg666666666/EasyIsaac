@@ -26,7 +26,15 @@
 
 ## 截图 (Screenshots)
 
-*(建议在此处添加几张游戏截图或 GIF 动图来展示效果)*
+开始界面：
+![EasyIsaac Start Menu](screenshots/start.gif)
+
+游戏主菜单：
+![EasyIsaac Main Menu](screenshots/menu.jpg)
+
+游戏画面(实际画面为60帧)：
+![EasyIsaac Gameplay](screenshots/gameplay1.gif)
+
 ## 操作说明 (Controls)
 
 * **移动 (Movement):** `W` `A` `S` `D`
