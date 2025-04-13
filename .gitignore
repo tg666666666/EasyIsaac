@@ -1,0 +1,36 @@
+# Visual Studio generated files
+*.obj
+*.pdb
+*.exe
+*.ilk
+*.suo
+*.user
+*.vcxproj.user
+*.log
+*.tlog
+*.pch
+*.idb
+*.ipch
+
+# Build directories
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+x64/
+Win32/
+ARM/
+ARM64/
+ipch/
+.vs/
+*.VC.db
+
+# Other common ignores
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*~
+*.bak
+
+# Asset or user files you might want to ignore locally if large or specific
+# assets/large_video.mp4
