@@ -30,7 +30,7 @@
 ![EasyIsaac Start Menu](screenshots/start.gif)
 
 游戏主菜单：
-![EasyIsaac Main Menu](screenshots/menu.jpg)
+![EasyIsaac Main Menu](screenshots/menu.png)
 
 游戏画面(实际画面为60帧)：
 ![EasyIsaac Gameplay](screenshots/gameplay1.gif)
