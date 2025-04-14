@@ -1,4 +1,4 @@
-# EasyIsaac
+# EasyIsaac（学习项目）
 
 [![Language](https://img.shields.io/badge/Language-C++(C--Style)-blue.svg)](https://isocpp.org/)
 [![Library](https://img.shields.io/badge/Library-EasyX-brightgreen.svg)](https://easyx.cn/)
@@ -136,24 +136,11 @@ EasyIsaac/
 
 本项目采用 **知识共享署名 4.0 国际许可协议 (Creative Commons Attribution 4.0 International License - CC BY 4.0)** 进行许可。
 
-简单来说，你可以自由地：
-
-* **共享** — 在任何媒介以任何形式复制、发行本作品。
-* **演绎** — 修改、转换或以本作品为基础进行创作。
-
-只要你遵守以下许可条件：
-
-* **署名** — 你必须给出**适当的署名**，提供指向本许可协议的链接，同时标明是否（对原始作品）作了修改。你可以使用任何合理的方式来署名，但是不得以任何方式暗示许可人为你或你的使用背书。
-
-详细信息请查看 [CC BY 4.0 许可证文本](https://creativecommons.org/licenses/by/4.0/)。
-
-请在你的衍生作品或使用本项目的介绍中包含原作者信息（如下）和项目来源链接。
-
 ## 贡献 (Contributing)
 
-本项目是作为大学课程设计完成的，目前已停止积极维护。因此，不接受直接的代码合并请求 (Pull Requests)。
+本项目是作为大学课程设计完成的，已停止维护。
 
-但是，本项目基于 **CC BY 4.0** 许可证开放源代码。欢迎您自由地 Fork、学习、修改和使用本项目的代码，只需遵守许可证要求进行署名即可。如果您基于此项目开发了新的版本或有趣的功能，欢迎通过邮件告知作者！
+但是，本项目基于 **CC BY 4.0** 许可证开放源代码。欢迎您自由地 Fork、学习、修改和使用本项目的代码。
 
 ## 致谢 (Acknowledgements)
 
