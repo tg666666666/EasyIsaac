@@ -11,23 +11,21 @@
   * [截图](#截图-screenshots)
 * 使用指南
   * [操作说明](#操作说明-controls)
-  * [安装与运行](#安装与运行-setup--run)
+  * [安装与运行（必读）](#安装与运行-setup--run)
   * [项目结构](#项目结构-project-structure)
 * 技术细节
   * [技术栈与依赖](#技术栈与依赖-tech-stack--dependencies)
   * [已知问题](#已知问题与局限性-known-issues--limitations)
-  * [未来计划](#未来计划-future-plans---archived)
 * 其他信息
-  * [许可证](#许可证-license)
-  * [贡献](#贡献-contributing)
   * [致谢](#致谢-acknowledgements)
   * [联系方式](#联系方式-contact)
 
 ## 简介 (Introduction)
 
-本项目 `EasyIsaac` 是一个基于 **EasyX** 图形库实现的 **C++ 射击小游戏**，作为 **大一 C 语言课程设计** 完成。游戏的核心玩法和视觉风格模仿了著名的独立游戏 **《以撒的结合》(The Binding of Isaac)**。
+本项目 `EasyIsaac` 是一个基于 **EasyX** 图形库实现的 **射击小游戏**，作为 **大一 C 语言课程设计** 完成。游戏的核心玩法和视觉风格模仿了著名的独立游戏 **《以撒的结合》(The Binding of Isaac)**。
 
-虽然项目使用 C++ 编译（因为 EasyX 库的要求），但代码风格基本遵循 C 语言语法。
+因为 EasyX 库的要求使用了C++编译，但代码遵循 C 语言语法。
+运行前请阅读[安装与运行](#安装与运行-setup--run)
 
 **注意:** 本项目作为课程设计已经完成，作者目前没有计划进行后续更新和维护。
 
@@ -66,7 +64,7 @@
 
 ## 技术栈与依赖 (Tech Stack & Dependencies)
 
-* **语言 (Language):** C++ (主要使用 C 风格语法)
+* **语言 (Language):** C++ (C 风格语法)
 * **图形库 (Graphics Library):** EasyX (官网: [easyx.cn](https://easyx.cn/))
 * **核心库 (Core Libraries):**
     * `<easyx.h>`
@@ -84,10 +82,10 @@
 1.  **环境准备:**
     * 确保你的操作系统是 **Windows**。
     * 安装 **Visual Studio 2022** ([下载地址](https://visualstudio.microsoft.com/zh-hans/vs/))。
-    * 下载并安装 **EasyX** 库。前往 EasyX 官网 ([easyx.cn/t/download](https://easyx.cn/t/download)) 下载最新版的安装程序（通常是一个 `.exe` 文件），运行它会自动检测并安装到你的 Visual Studio 2022 中。
+    * 下载并安装 **EasyX** 库。前往 EasyX 官网 ([easyx.cn/t/download](https://easyx.cn/t/download)) 下载最新版的安装程序（通常是一个 `.exe` 文件），运行它并安装到你的 Visual Studio 2022 中。
 
 2.  **获取项目:**
-    * 克隆或下载本仓库到本地。
+    * 克隆或下载此完整仓库到本地。
 
 3.  **配置 Visual Studio:**
     * 使用 Visual Studio 2022 打开项目根目录下的 `MyIsaac.sln` 文件。
@@ -139,26 +137,6 @@ EasyIsaac/
 * **游戏内容:** 目前游戏只有一个固定房间，没有实现《以撒的结合》中进入不同房间的机制。
 * **敌人/Boss:** 缺乏复杂的敌人行为和 Boss 战。
 * **开发状态:** 项目已停止开发，不太可能进行功能更新或 Bug 修复。
-
-## 未来计划 (Future Plans - Archived)
-
-虽然目前没有计划继续开发，但最初设想的或可以改进的方向包括：
-
-* 实现多房间系统，允许玩家探索不同的房间布局。
-* 增加更多种类的敌人和具有挑战性的 Boss。
-* 引入道具和能力系统。
-* 修复已知的音效和按键监听问题。
-* 使游戏机制更贴近原版《以撒的结合》。
-
-## 许可证 (License)
-
-本项目采用 **知识共享署名 4.0 国际许可协议 (Creative Commons Attribution 4.0 International License - CC BY 4.0)** 进行许可。
-
-## 贡献 (Contributing)
-
-本项目是作为大学课程设计完成的，已停止维护。
-
-但是，本项目基于 **CC BY 4.0** 许可证开放源代码。欢迎您自由地 Fork、学习、修改和使用本项目的代码。
 
 ## 致谢 (Acknowledgements)
 
