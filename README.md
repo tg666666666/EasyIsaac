@@ -3,7 +3,7 @@
 [![Language](https://img.shields.io/badge/Language-C++(C--Style)-blue.svg)](https://isocpp.org/)
 [![Library](https://img.shields.io/badge/Library-EasyX-brightgreen.svg)](https://easyx.cn/)
 [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)]()
-[![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://unlicense.org/)
 #
 * 项目概览
   * [简介](#简介-introduction)
@@ -26,6 +26,8 @@
 
 因为 EasyX 库的要求使用了C++编译，但代码遵循 C 语言语法。
 运行前请阅读[安装与运行](#安装与运行-setup--run)
+
+**本项目完全开源**您可以自由使用、修改、分发，无需任何限制。
 
 **注意:** 本项目作为课程设计已经完成，作者目前没有计划进行后续更新和维护。
 
