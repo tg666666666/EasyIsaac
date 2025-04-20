@@ -82,23 +82,19 @@
 1.  **环境准备:**
     * 确保你的操作系统是 **Windows**。
     * 安装 **Visual Studio 2022** ([下载地址](https://visualstudio.microsoft.com/zh-hans/vs/))。
-    * 下载并安装 **EasyX** 库。前往 EasyX 官网 ([easyx.cn/t/download](https://easyx.cn/t/download)) 下载最新版的安装程序（通常是一个 `.exe` 文件），运行它并安装到你的 Visual Studio 2022 中。
+    * 下载并安装 **EasyX** 库。前往 EasyX 官网 ([easyx.cn/t/download](https://easyx.cn/t/download)) 下载最新版的安装程序（通常是一个 `.exe` 文件），运行它并勾选Visual Studio 2022，EasyX库会自动安装到VS2022中。
 
 2.  **获取项目:**
     * 克隆或下载此完整仓库到本地。
 
 3.  **配置 Visual Studio:**
     * 使用 Visual Studio 2022 打开项目根目录下的 `MyIsaac.sln` 文件。
-    * 在 VS 中，右键点击解决方案资源管理器中的项目（例如 "MyIsaac"），选择“属性”。
-    * 在属性页中，确保配置为“所有配置”（或你常用的 Debug/Release 配置），平台为“所有平台”（或你常用的 x86/x64）。
+    * 在 VS 2022界面顶部导航栏，点击 **“调试”**，下拉菜单中选择 **“MyIsaac 调试属性”**。
     * 导航到 **配置属性 -> 高级 -> 字符集**。
     * 将其设置为 **“使用多字节字符集”**。点击“应用”并“确定”。
 
 4.  **编译与运行:**
-    * 一般来说，直接点击“本地 Windows 调试器”（或按F5）即可运行，无需以下步骤。
-    * 在 Visual Studio 2022 中，选择“MyIsaac”启动项目。
-    * 点击顶部菜单的“生成”->“生成解决方案”（或按 F7）。
-    * 如果编译成功，点击绿色的“本地 Windows 调试器”按钮（或按 F5）运行游戏。程序将执行 `src/main.cpp`。
+    * 直接点击“本地 Windows 调试器”（或按F5）即可运行。
 
 ## 项目结构 (Project Structure)
 
